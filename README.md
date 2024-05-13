@@ -4,24 +4,24 @@
 
 This project aims to develop a small GPT from scratch and enhance the training and inference of the developed model using high-performance computing (HPC) techniques. Our objective is to understand and implement the GPT architecture on the Harry Potter Book dataset and improve its efficiency through various HPC methods. The ultimate goal is to create a resource-efficient model that can perform well in resource-constrained environments.
 
-## Project Milestones
+## Project Milestones and Complete Status
 
-1. **Project Initialization**
+1. **Project Initialization** - Completed
    - Defined project scope and objectives.
    - Set up initial project structure and environment.
 
-2. **Development of GPT Architecture** 
+2. **Development of GPT Architecture** - Completed
    - Developed GPT architecture from scratch.
    - Conducted extensive literature review and understanding of decoder-based models.
   
-3. **Training and Evaluation**
+3. **Training and Evaluation** - Completed
    - Conducted multiple training iterations to optimize performance.
    - Evaluated model on the Harry Potter dataset.
 
-3. **Profiling**
+3. **Profiling** - Completed
    - Implemented cProfiling to identify bottlenecks.
 
-4. **Implementation of Data Parallelism**
+4. **Implementation of Data Parallelism** - Completed
    - Implemented data parallelism using PyTorch Distributed.
    - Achieved significant reduction in training time.
 
