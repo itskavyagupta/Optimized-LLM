@@ -30,9 +30,9 @@ This project aims to develop a small GPT from scratch and enhance the training a
   
 ## Description of the Repository and Code Structure
 
-- **data/**: Contains the dataset used for training and evaluation.
-- **scripts/**: Python scripts for training, evaluating, profiling, and quantizing the model.
-- **results/**: Cotained the Generated Text, Baseline Output with Profiling
+- **Data/**: Contains the dataset used for training and evaluation.
+- **Results/**: Cotained the Generated Text, Baseline Output with Profiling
+- **Scripts/**: Python scripts for training, evaluating, profiling, and quantizing the model.
 
 ## Model Architecture
 
