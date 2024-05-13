@@ -23,7 +23,7 @@ def main():
     
     torch.manual_seed(1337)
     
-    with open('Harry_Potter_all_books_preprocessed.txt', 'r', encoding='utf-8') as f:
+    with open('Data/Harry_Potter_all_books_preprocessed.txt', 'r', encoding='utf-8') as f:
         dataset = f.read()
         
     unique_chars = sorted(list(set(dataset)))
