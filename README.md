@@ -34,6 +34,21 @@ This project aims to develop a small GPT from scratch and enhance the training a
 - **Results/**: Cotained the Generated Text, Baseline Output with Profiling
 - **Scripts/**: Python scripts for training, evaluating, profiling, and quantizing the model.
 
+## Example commands to execute the code
+
+### Baseline
+
+python scripts/Baseline.py
+
+### Data Parallelism
+
+python scripts/DataParallelism.py
+
+### Quantization
+
+python scripts/Quantization.py
+
+
 ## Model Architecture
 
 ![Copy of prog4](https://github.com/itskavyagupta/Optimized-LLM/assets/66244523/8b421f15-45cf-4c1c-834e-d3f851b83718)
