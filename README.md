@@ -27,6 +27,12 @@ This project aims to develop a small GPT from scratch and enhance the training a
 
 5. **Model Quantization**
    - Applied quantization techniques to reduce model size which reduces the Inference time.
+  
+## Description of the Repository and Code Structure
+
+- **data/**: Contains the dataset used for training and evaluation.
+- **scripts/**: Python scripts for training, evaluating, profiling, and quantizing the model.
+- **results/**: Cotained the Generated Text, Baseline Output with Profiling
 
 ## Model Architecture
 
