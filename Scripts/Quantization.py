@@ -246,27 +246,7 @@ def main():
     # Print the size of the model after quantization
     print("Model size after quantization:")
     print_size_of_model(model)
-    
-    # Validation loss calculation
-    @torch.no_grad()
-    def estimate_loss():
-        model.eval()
-        losses = torch.zeros(200)
-        for k in range(200):
-            X, Y = get_data_batch('val')
-            logits, loss = model(X.float())  # Convert input to float for validation
-            losses[k] = loss.item()
-        return losses.mean()
-    
-    val_loss = estimate_loss()
-    print(f"Validation Loss: {val_loss:.4f}")
-    
-    # Text generation
-    context = torch.zeros((1, 1), dtype=torch.long, device=device)
-    generated_text = decode_text(model.generate(context, max_new_tokens=500)[0].tolist())
-    print(generated_text)
-    
-    open('New_text.txt', 'w').write(decode_text(model.generate(context, max_new_tokens=10000)[0].tolist()))
+
 
 if __name__ == "__main__":
     profiler = cProfile.Profile()
