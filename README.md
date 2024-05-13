@@ -38,16 +38,17 @@ This project aims to develop a small GPT from scratch and enhance the training a
 
 ### Baseline
 
+```
 python scripts/Baseline.py
-
+```
 ### Data Parallelism
-
+```
 python scripts/DataParallelism.py
-
+```
 ### Quantization
-
+```
 python scripts/Quantization.py
-
+```
 
 ## Model Architecture
 
