@@ -64,6 +64,12 @@ This diagram illustrates the architecture of a GPT model, showing the complete f
 
 ### Generated Text After training
 
+- 100 epochs
+
+ocedo Ha alt yoary mory fasolem arighinf ry mang mElg wh aceneidl wheicanery aistoug ongrse ly deght n ff whsdse a ysoncae Mrt dendy e watheres sanom e yeird id sthe gsofren thoumin ithalt toook bld Auufed ry angathos Unithad Hed aly had Ha Deeande whemet vtl wein hn asereconcharichsarrllsas hlly s icaYoioteroit coane aio bud co toupe he int y bed whed t I dg tharlot.he Drgs thef fongono m thig hed we memead ath bem w ongow Fer id the Ha bl amemerouidower san st bll.aith idilillide arely
+
+- 5000 epochs
+
  They all got to their feet and stick as the tiny moan both saying the vanish wand looking at her .Harry wondered whether how torn Buckbeak more heads were there and even sat down Hermione rolled up the pitch besiding Rons wands .The Bull followed himself onto the table and they glared around and divided us at eleven Hedwig Fudge muttered .Oh he got care now then he said to Umbridge to the door and he interrogated her .
 
 ### Data Parallelism
